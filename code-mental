@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CODE MENTAL | ATIVE SEU MODO DE ALTA PERFORMANCE</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f1f8f4;
+      color: #1b5e20;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: linear-gradient(120deg, #2e7d32, #66bb6a);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      margin-top: 10px;
+      letter-spacing: 1px;
+    }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 20px;
+      background-color: #e8f5e9;
+    }
+
+    .hero img {
+      width: 420px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      margin: 20px;
+    }
+
+    .hero-text {
+      max-width: 500px;
+      margin: 20px;
+      text-align: left;
+    }
+
+    .hero-text h2 {
+      font-size: 2.2rem;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      color: #1b5e20;
+    }
+
+    .hero-text p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #2e7d32;
+    }
+
+    .cta {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 15px 45px;
+      background-color: #2e7d32;
+      color: white;
+      font-size: 1.1rem;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 50px;
+      transition: all 0.3s ease;
+    }
+
+    .cta:hover {
+      background-color: #1b5e20;
+      transform: scale(1.05);
+    }
+
+    section {
+      text-align: center;
+      padding: 80px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      text-transform: uppercase;
+      color: #1b5e20;
+      margin-bottom: 30px;
+    }
+
+    section p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #2e7d32;
+      margin-bottom: 10px;
+    }
+
+    .benefits {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 50px;
+    }
+
+    .benefit {
+      background-color: white;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+      width: 280px;
+      padding: 30px;
+      transition: all 0.3s ease;
+    }
+
+    .benefit:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+    }
+
+    .benefit h3 {
+      text-transform: uppercase;
+      color: #1b5e20;
+      margin-bottom: 15px;
+    }
+
+    .benefit p {
+      color: #2e7d32;
+      font-size: 1rem;
+    }
+
+    .video-section {
+      background-color: #c8e6c9;
+      padding: 60px 20px;
+    }
+
+    iframe {
+      width: 90%;
+      max-width: 800px;
+      height: 450px;
+      border: none;
+      border-radius: 20px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #1b5e20;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+      }
+
+      .hero-text {
+        text-align: center;
+      }
+
+      iframe {
+        height: 250px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CODE MENTAL</h1>
+    <p>ATIVE SEU CÓDIGO DE FOCO, CLAREZA E RESULTADOS</p>
+  </header>
+
+  <div class="hero">
+    <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80" alt="Clareza Mental" />
+    <div class="hero-text">
+      <h2>SEU NOVO SISTEMA MENTAL COMEÇA AQUI</h2>
+      <p>O <strong>CODE MENTAL</strong> é um kit digital completo criado para quem quer reprogramar a mente, eliminar distrações e atingir alta performance em todas as áreas da vida.</p>
+      <p>Um pacote com ebook, áudios e ferramentas práticas — pronto para baixar e aplicar agora.</p>
+      <a href="#" class="cta">BAIXAR AGORA</a>
+    </div>
+  </div>
+
+  <section>
+    <h2>O QUE VOCÊ RECEBE</h2>
+    <div class="benefits">
+      <div class="benefit">
+        <h3>📘 EBOOK CODE MENTAL</h3>
+        <p>Manual direto e prático para destravar o foco e a clareza mental em apenas 7 dias.</p>
+      </div>
+      <div class="benefit">
+        <h3>🎧 ÁUDIOS DE REPROGRAMAÇÃO</h3>
+        <p>Trilhas guiadas para recondicionar seu cérebro ao foco e à produtividade.</p>
+      </div>
+      <div class="benefit">
+        <h3>🧩 PLANILHA DE FOCO</h3>
+        <p>Ferramenta para aplicar o método diariamente e acompanhar sua evolução mental.</p>
+      </div>
+    </div>
+    <a href="#" class="cta">ADQUIRIR MEU CODE MENTAL</a>
+  </section>
+
+  <section class="video-section">
+    <h2>ASSISTA ANTES DE BAIXAR</h2>
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+    <p style="margin-top: 30px; color:#1b5e20;">DESCUBRA COMO O <strong>CODE MENTAL</strong> PODE TRANSFORMAR SUA MENTE — SEM CURSOS, SEM COMPLICAÇÃO, RESULTADOS REAIS.</p>
+    <a href="#" class="cta">ATIVAR MEU CÓDIGO MENTAL</a>
+  </section>
+
+  <section>
+    <h2>RESULTADOS REAIS</h2>
+    <p>"O CODE MENTAL me ajudou a focar de verdade. Em 3 dias, minha mente já estava diferente." — <strong>Mariana S.</strong></p>
+    <p>"Parei de procrastinar e recuperei meu foco nos estudos. Vale cada centavo!" — <strong>Lucas R.</strong></p>
+    <p>"Eu achava que precisava de motivação. Descobri que precisava de reprogramação." — <strong>Rafael T.</strong></p>
+    <a href="#" class="cta">GARANTIR MEU ACESSO</a>
+  </section>
+
+  <footer>
+    © 2025 CODE MENTAL — TODOS OS DIREITOS RESERVADOS
+  </footer>
+</body>
+</html>
